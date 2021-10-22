@@ -4,3 +4,4 @@ import {addItem} from './todo.js';
 let addBtn = document.querySelector('.input__btn');
 addBtn.addEventListener("click", addItem);
 
+
