@@ -1,4 +1,5 @@
 let todoList = [];
+let test = 0;
 
 const firebaseConfig = {
     apiKey: "AIzaSyAwnltMvwCLc6QBjEGX5hZcfkwfCJnmdlw",
@@ -43,7 +44,7 @@ function showItem(){
     prevTodo.forEach(e => {
         e.remove();
     })
-    // 리스트 다시 그림
+    // 리스트 다시 그림2
     console.log(todoList)
     todoList.forEach( e => {
         let todo = document.createElement('li');
